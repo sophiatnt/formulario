@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 40px 0;
+  min-height: 100vh;
+  background-color: #ffd5d5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.contenedor-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+form {
+  background-color: rgb(255, 229, 229);
+  padding: 30px 40px;
+  border-radius: 10px;
+  border: 2px solid #d8bebe;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  max-width: 90vw;
+  width: 100%;
+}
+.imagen-lado img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #f85d83;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fa9ac2;
+}
